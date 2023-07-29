@@ -26,8 +26,8 @@ const Home = () => {
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                LETS <br className="xl:block hidden" />
-                Do It
+                3D <br className="xl:block hidden" />
+                E-Store
               </h1>
             </motion.div>
             <motion.div
@@ -36,12 +36,12 @@ const Home = () => {
             >
               <p className="max-w-md font-normal text-gray-600 text-base">
                 The Futuristic online Store with 3D customization{" "}
-                <strong>Unleash the Future</strong>
-                Define your style
+                <strong> Unleash the Future  </strong>
+                 Define your style
               </p>
               <CustomButton
               type="filled"
-              title="Customize It"
+              title="Customize"
               handleClick={() => state.intro = false}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
                />
